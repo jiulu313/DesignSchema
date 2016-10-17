@@ -1,9 +1,11 @@
 package com.zhj.desigin.CreateModel.factory;
 
 /**
- * Created by zhanghongjun on 16/10/17.
  *
- * 1  有一个生产方法
+ * Created by zhanghongjun on 16/10/17.
+ * 简单工厂模式 之普通工厂模式
+ * 有一个生产方法
+ *
  */
 public class PhoneFactory {
 

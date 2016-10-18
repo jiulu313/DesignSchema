@@ -8,6 +8,8 @@ import com.zhj.desigin.CreateModel.factory.Phone;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory2;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory3;
+import com.zhj.desigin.CreateModel.prototype.Book;
+import com.zhj.desigin.CreateModel.prototype.BookTest;
 import com.zhj.desigin.CreateModel.singleton.Singleton;
 
 /**
@@ -23,7 +25,8 @@ public class Main {
 
 
 //        testSingleton();
-        testBuilder();
+//        testBuilder();
+        testPrototype();
 
     }
 
@@ -59,11 +62,20 @@ public class Main {
         Singleton.getInstance().show();
     }
 
+    //测试建造者模式
     private static void testBuilder(){
         Compute compute = new CustomerBuilder().setMEM("8G").setHDD("西部数据500G").setCPU("i7").build();
         System.out.println(compute);
     }
 
+
+    private static void testPrototype(){
+        try {
+            BookTest.test();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 

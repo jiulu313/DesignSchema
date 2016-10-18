@@ -1,4 +1,9 @@
-package com.zhj.desigin.CreateModel.factory;
+package com.zhj.desigin.CreateModel.factory.NormalFactory;
+
+import com.zhj.desigin.CreateModel.factory.NokiaPhone;
+import com.zhj.desigin.CreateModel.factory.Phone;
+import com.zhj.desigin.CreateModel.factory.SanuagPhone;
+import com.zhj.desigin.CreateModel.factory.XiaoMiPhone;
 
 /**
  * Created by zhanghongjun on 16/10/17.

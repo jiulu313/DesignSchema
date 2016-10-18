@@ -5,10 +5,9 @@ import com.zhj.desigin.CreateModel.builder.CustomerBuilder;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.Factory;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.NokiaFactory;
 import com.zhj.desigin.CreateModel.factory.Phone;
-import com.zhj.desigin.CreateModel.factory.PhoneFactory;
-import com.zhj.desigin.CreateModel.factory.PhoneFactory2;
-import com.zhj.desigin.CreateModel.factory.PhoneFactory3;
-import com.zhj.desigin.CreateModel.prototype.Book;
+import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory;
+import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory2;
+import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory3;
 import com.zhj.desigin.CreateModel.prototype.BookTest;
 import com.zhj.desigin.CreateModel.singleton.Singleton;
 

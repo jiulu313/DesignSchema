@@ -1,5 +1,6 @@
 package com.zhj.desigin;
 
+import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.CreateModel.builder.Compute;
 import com.zhj.desigin.CreateModel.builder.CustomerBuilder;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.Factory;
@@ -32,7 +33,9 @@ public class Main {
 //        testComposite();
 
 //        testClassAdapter();
-        testObjectAdapter();
+//        testObjectAdapter();
+
+        testStrategy();
 
     }
 
@@ -97,6 +100,13 @@ public class Main {
     private static void testObjectAdapter(){
         ObjectVoltAdapterTest.test();
     }
+
+    //测试策略模式
+    private static void testStrategy(){
+        StrategyTest.test();
+    }
+
+
 
 
 }

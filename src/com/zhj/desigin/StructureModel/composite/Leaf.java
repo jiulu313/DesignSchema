@@ -1,0 +1,31 @@
+package com.zhj.desigin.StructureModel.composite;
+
+/**
+ * Created by zhanghongjun on 16/10/18.
+ */
+public class Leaf extends Component{
+
+    public Leaf(String name) {
+        super(name);
+    }
+
+    @Override
+    public void doSomething() {
+        System.out.println(name);
+    }
+
+    @Override
+    public void addChild(Component child) {
+        throw new UnsupportedOperationException("叶子节点没有子节点");
+    }
+
+    @Override
+    public void removeChild(Component child) {
+        throw new UnsupportedOperationException("叶子节点没有子节点");
+    }
+
+    @Override
+    public Component getChild(int index) {
+        throw new UnsupportedOperationException("叶子节点没有子节点");
+    }
+}

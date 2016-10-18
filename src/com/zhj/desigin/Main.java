@@ -10,6 +10,7 @@ import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory2;
 import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory3;
 import com.zhj.desigin.CreateModel.prototype.BookTest;
 import com.zhj.desigin.CreateModel.singleton.Singleton;
+import com.zhj.desigin.StructureModel.composite.Client;
 
 /**
  * Created by zhanghongjun on 16/10/17.
@@ -25,7 +26,9 @@ public class Main {
 
 //        testSingleton();
 //        testBuilder();
-        testPrototype();
+//        testPrototype();
+        testComposite();
+
 
     }
 
@@ -67,7 +70,7 @@ public class Main {
         System.out.println(compute);
     }
 
-
+    //测试原型模式
     private static void testPrototype(){
         try {
             BookTest.test();
@@ -76,6 +79,10 @@ public class Main {
         }
     }
 
+    //测试组合模式
+    private static void testComposite(){
+        Client.test();
+    }
 
 
 }

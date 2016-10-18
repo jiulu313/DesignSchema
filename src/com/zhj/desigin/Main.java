@@ -10,6 +10,8 @@ import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory2;
 import com.zhj.desigin.CreateModel.factory.NormalFactory.PhoneFactory3;
 import com.zhj.desigin.CreateModel.prototype.BookTest;
 import com.zhj.desigin.CreateModel.singleton.Singleton;
+import com.zhj.desigin.StructureModel.adapter.classAdapter.ClassAdapterTest;
+import com.zhj.desigin.StructureModel.adapter.objectAdapter.ObjectVoltAdapterTest;
 import com.zhj.desigin.StructureModel.composite.Client;
 
 /**
@@ -27,8 +29,10 @@ public class Main {
 //        testSingleton();
 //        testBuilder();
 //        testPrototype();
-        testComposite();
+//        testComposite();
 
+//        testClassAdapter();
+        testObjectAdapter();
 
     }
 
@@ -82,6 +86,16 @@ public class Main {
     //测试组合模式
     private static void testComposite(){
         Client.test();
+    }
+
+    //测试类适配器模式
+    private static void testClassAdapter(){
+        ClassAdapterTest.test();
+    }
+
+    //测试对象适配器模式
+    private static void testObjectAdapter(){
+        ObjectVoltAdapterTest.test();
     }
 
 

@@ -1,11 +1,14 @@
 package com.zhj.desigin;
 
+import com.zhj.desigin.CreateModel.builder.Compute;
+import com.zhj.desigin.CreateModel.builder.CustomerBuilder;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.Factory;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.NokiaFactory;
 import com.zhj.desigin.CreateModel.factory.Phone;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory2;
 import com.zhj.desigin.CreateModel.factory.PhoneFactory3;
+import com.zhj.desigin.CreateModel.singleton.Singleton;
 
 /**
  * Created by zhanghongjun on 16/10/17.
@@ -16,7 +19,11 @@ public class Main {
 //       testNormalFactory();
 //        testNormalFactory2();
 //        testNormalFactory3();
-        testFactoryMethod();
+//        testFactoryMethod();
+
+
+//        testSingleton();
+        testBuilder();
 
     }
 
@@ -46,6 +53,18 @@ public class Main {
         Phone phone = factory.produce();
         phone.call();
     }
+
+    //测试单例类
+    private static void testSingleton(){
+        Singleton.getInstance().show();
+    }
+
+    private static void testBuilder(){
+        Compute compute = new CustomerBuilder().setMEM("8G").setHDD("西部数据500G").setCPU("i7").build();
+        System.out.println(compute);
+    }
+
+
 
 
 }

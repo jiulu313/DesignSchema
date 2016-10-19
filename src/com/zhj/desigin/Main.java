@@ -17,6 +17,8 @@ import com.zhj.desigin.StructureModel.adapter.objectAdapter.ObjectVoltAdapterTes
 import com.zhj.desigin.StructureModel.composite.Client;
 import com.zhj.desigin.StructureModel.facade.FacadeTest;
 
+import java.util.HashMap;
+
 /**
  * Created by zhanghongjun on 16/10/17.
  */

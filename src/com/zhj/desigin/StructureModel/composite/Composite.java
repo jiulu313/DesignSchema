@@ -23,16 +23,19 @@ public class Composite extends Component{
         }
     }
 
+    //增
     @Override
     public void addChild(Component child) {
         components.add(child);
     }
 
+    //删
     @Override
     public void removeChild(Component child) {
         components.remove(child);
     }
 
+    //查
     @Override
     public Component getChild(int index) {
         return components.get(index);

@@ -15,6 +15,7 @@ import com.zhj.desigin.CreateModel.singleton.Singleton;
 import com.zhj.desigin.StructureModel.adapter.classAdapter.ClassAdapterTest;
 import com.zhj.desigin.StructureModel.adapter.objectAdapter.ObjectVoltAdapterTest;
 import com.zhj.desigin.StructureModel.composite.Client;
+import com.zhj.desigin.StructureModel.facade.FacadeTest;
 
 /**
  * Created by zhanghongjun on 16/10/17.
@@ -37,7 +38,14 @@ public class Main {
 //        testObjectAdapter();
 
 //        testStrategy();
-        testTemplate();
+//        testTemplate();
+        testFacade();
+
+
+
+
+
+
     }
 
     //测试普通工厂模式
@@ -112,5 +120,9 @@ public class Main {
         TemplateTest.test();
     }
 
+    //测试外观模式
+    private static void testFacade(){
+        FacadeTest.test();
+    }
 
 }

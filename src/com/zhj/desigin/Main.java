@@ -14,6 +14,7 @@ import com.zhj.desigin.CreateModel.prototype.BookTest;
 import com.zhj.desigin.CreateModel.singleton.Singleton;
 import com.zhj.desigin.StructureModel.adapter.classAdapter.ClassAdapterTest;
 import com.zhj.desigin.StructureModel.adapter.objectAdapter.ObjectVoltAdapterTest;
+import com.zhj.desigin.StructureModel.bridge.BridgeTest;
 import com.zhj.desigin.StructureModel.composite.Client;
 import com.zhj.desigin.StructureModel.facade.FacadeTest;
 
@@ -41,8 +42,8 @@ public class Main {
 
 //        testStrategy();
 //        testTemplate();
-        testFacade();
-
+//        testFacade();
+        testBridge();
 
 
 
@@ -125,6 +126,11 @@ public class Main {
     //测试外观模式
     private static void testFacade(){
         FacadeTest.test();
+    }
+
+    //测试桥接模式
+    private static void testBridge(){
+        BridgeTest.test();
     }
 
 }

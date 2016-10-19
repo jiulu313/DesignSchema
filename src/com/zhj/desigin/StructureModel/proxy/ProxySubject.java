@@ -11,9 +11,9 @@ public class ProxySubject extends Subject{
     }
 
     @Override
-    public void request() {
+    public void visit() {
         preRequest();           //真实角色前
-        realSubject.request();
+        realSubject.visit();
         postRequest();          //真实角色后
     }
 

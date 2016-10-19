@@ -6,7 +6,7 @@ package com.zhj.desigin.StructureModel.proxy;
  */
 public class RealSubject extends Subject{
     @Override
-    public void request() {
+    public void visit() {
 
     }
 }

@@ -7,5 +7,5 @@ package com.zhj.desigin.StructureModel.proxy;
  */
 public abstract class Subject {
 
-    public abstract void request();
+    public abstract void visit();
 }

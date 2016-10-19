@@ -1,5 +1,6 @@
 package com.zhj.desigin;
 
+import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
@@ -47,8 +48,8 @@ public class Main {
 //        testFacade();
 //        testBridge();
 //        testDecorator();
-        testObserver();
-
+//        testObserver();
+        testIterator();
 
 
     }
@@ -145,10 +146,10 @@ public class Main {
         ObserverTest.test();
     }
 
-
-
-
-
+    //测试迭代器模式
+    private static void testIterator(){
+        IteratorTest.test();
+    }
 
 
 }

@@ -7,7 +7,7 @@ public class ClassAdapterTest {
 
     public static void test(){
 
-        VoltAdapter voltAdapter = new VoltAdapter();
+        ClassVoltAdapter voltAdapter = new ClassVoltAdapter();
         System.out.println(voltAdapter.getVolt5());
 
     }

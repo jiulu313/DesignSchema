@@ -11,7 +11,7 @@ public abstract class EnterIceBox {
     }
 
     protected void enterInfoIcobox(){
-        System.out.println("2 把大象放冰箱");
+        System.out.println(" 2 把大象放冰箱");
     }
 
     protected void closeDoor(){

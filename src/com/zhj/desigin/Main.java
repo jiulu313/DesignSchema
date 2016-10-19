@@ -1,5 +1,6 @@
 package com.zhj.desigin;
 
+import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
 import com.zhj.desigin.CreateModel.builder.Compute;
@@ -16,6 +17,7 @@ import com.zhj.desigin.StructureModel.adapter.classAdapter.ClassAdapterTest;
 import com.zhj.desigin.StructureModel.adapter.objectAdapter.ObjectVoltAdapterTest;
 import com.zhj.desigin.StructureModel.bridge.BridgeTest;
 import com.zhj.desigin.StructureModel.composite.Client;
+import com.zhj.desigin.StructureModel.decorator.DecoratorTest;
 import com.zhj.desigin.StructureModel.facade.FacadeTest;
 
 import java.util.HashMap;
@@ -43,9 +45,9 @@ public class Main {
 //        testStrategy();
 //        testTemplate();
 //        testFacade();
-        testBridge();
-
-
+//        testBridge();
+//        testDecorator();
+        testObserver();
 
 
 
@@ -132,5 +134,21 @@ public class Main {
     private static void testBridge(){
         BridgeTest.test();
     }
+
+    //测试装饰者模式
+    private static void testDecorator(){
+        DecoratorTest.test();
+    }
+
+    //测试观察者模式
+    private static void testObserver(){
+        ObserverTest.test();
+    }
+
+
+
+
+
+
 
 }

@@ -4,6 +4,7 @@ import com.zhj.desigin.ActionModel.Chain.ChainTest;
 import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
 import com.zhj.desigin.ActionModel.Memoto.Memoto;
 import com.zhj.desigin.ActionModel.Memoto.MemotoTest;
+import com.zhj.desigin.ActionModel.command.CommandTest;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
@@ -54,7 +55,11 @@ public class Main {
 //        testObserver();
 //        testIterator();
 //            testChain();
-        testMemoto();
+//        testMemoto();
+        testCommand();
+
+
+
     }
 
     //测试普通工厂模式
@@ -154,6 +159,7 @@ public class Main {
         IteratorTest.test();
     }
 
+    //测试责任链模式
     private static void testChain(){
         ChainTest.test();
     }
@@ -162,4 +168,10 @@ public class Main {
     private static void testMemoto(){
         MemotoTest.test();
     }
+
+    private static void testCommand(){
+        CommandTest.test();
+    }
+
+
 }

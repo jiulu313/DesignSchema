@@ -1,5 +1,6 @@
 package com.zhj.desigin;
 
+import com.zhj.desigin.ActionModel.Chain.ChainTest;
 import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
@@ -49,8 +50,8 @@ public class Main {
 //        testBridge();
 //        testDecorator();
 //        testObserver();
-        testIterator();
-
+//        testIterator();
+            testChain();
 
     }
 
@@ -151,5 +152,7 @@ public class Main {
         IteratorTest.test();
     }
 
-
+    private static void testChain(){
+        ChainTest.test();
+    }
 }

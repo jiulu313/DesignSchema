@@ -2,6 +2,8 @@ package com.zhj.desigin;
 
 import com.zhj.desigin.ActionModel.Chain.ChainTest;
 import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
+import com.zhj.desigin.ActionModel.Memoto.Memoto;
+import com.zhj.desigin.ActionModel.Memoto.MemotoTest;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
@@ -51,8 +53,8 @@ public class Main {
 //        testDecorator();
 //        testObserver();
 //        testIterator();
-            testChain();
-
+//            testChain();
+        testMemoto();
     }
 
     //测试普通工厂模式
@@ -154,5 +156,10 @@ public class Main {
 
     private static void testChain(){
         ChainTest.test();
+    }
+
+    //测试备忘录模式
+    private static void testMemoto(){
+        MemotoTest.test();
     }
 }

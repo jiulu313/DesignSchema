@@ -16,7 +16,7 @@ public class Observable {
     }
 
     //反注册一个观察者
-    public void unresgisterObserver(Observer observer){
+    public void unregisterObserver(Observer observer){
         observers.remove(observer);
     }
 

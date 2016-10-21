@@ -2,9 +2,12 @@ package com.zhj.desigin;
 
 import com.zhj.desigin.ActionModel.Chain.ChainTest;
 import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
+import com.zhj.desigin.ActionModel.Mediator.Mediator;
+import com.zhj.desigin.ActionModel.Mediator.MediatorTest;
 import com.zhj.desigin.ActionModel.Memoto.Memoto;
 import com.zhj.desigin.ActionModel.Memoto.MemotoTest;
 import com.zhj.desigin.ActionModel.command.CommandTest;
+import com.zhj.desigin.ActionModel.command.MediaPlayer;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.state.StateTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
@@ -58,8 +61,8 @@ public class Main {
 //        testChain();
 //        testMemoto();
 //        testCommand();
-        testState();
-
+//        testState();
+        testMediator();
 
     }
 
@@ -180,7 +183,10 @@ public class Main {
         StateTest.test();
     }
 
-
+    //测试中介者模式
+    private static void testMediator(){
+        MediatorTest.test();
+    }
 
 
 }

@@ -6,6 +6,7 @@ import com.zhj.desigin.ActionModel.Memoto.Memoto;
 import com.zhj.desigin.ActionModel.Memoto.MemotoTest;
 import com.zhj.desigin.ActionModel.command.CommandTest;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
+import com.zhj.desigin.ActionModel.state.StateTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
 import com.zhj.desigin.CreateModel.builder.Compute;
@@ -54,10 +55,10 @@ public class Main {
 //        testDecorator();
 //        testObserver();
 //        testIterator();
-//            testChain();
+//        testChain();
 //        testMemoto();
-        testCommand();
-
+//        testCommand();
+        testState();
 
 
     }
@@ -169,9 +170,17 @@ public class Main {
         MemotoTest.test();
     }
 
+    //测试命令模式
     private static void testCommand(){
         CommandTest.test();
     }
+
+    //测试状态模式
+    private static void testState(){
+        StateTest.test();
+    }
+
+
 
 
 }

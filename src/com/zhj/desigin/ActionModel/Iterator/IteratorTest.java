@@ -5,6 +5,11 @@ package com.zhj.desigin.ActionModel.Iterator;
  */
 public class IteratorTest {
 
+    public static void main(String[] args){
+        test();
+
+    }
+
     public static void test(){
         CompanyMin companyMin = new CompanyMin();
         check(companyMin.iterator());

@@ -2,6 +2,7 @@ package com.zhj.desigin.CreateModel.prototype;
 
 /**
  * Created by zhanghongjun on 16/10/18.
+ *
  */
 public class Book implements Cloneable{
     private String name;

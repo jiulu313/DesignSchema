@@ -2,6 +2,7 @@ package com.zhj.desigin.ActionModel.Chain;
 
 /**
  * Created by zhanghongjun on 16/10/20.
+ * 组长
  */
 public class GroupLeader extends Leader{
     @Override

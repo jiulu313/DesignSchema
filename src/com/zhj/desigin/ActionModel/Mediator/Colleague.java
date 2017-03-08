@@ -1,7 +1,5 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
-import com.zhj.desigin.ActionModel.command.MediaPlayer;
-
 /**
  * Created by zhanghongjun on 16/10/21.
  *

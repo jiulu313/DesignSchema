@@ -64,6 +64,8 @@ public class Main {
 //        testState();
         testMediator();
 
+        Thread thread;
+
     }
 
     //测试普通工厂模式

@@ -5,6 +5,10 @@ package com.zhj.desigin.StructureModel.decorator;
  */
 public class DecoratorTest {
 
+    public static void main(String[] args){
+        test();
+    }
+
     public static void test(){
 
         //首先我们要有一个Person对象
@@ -14,6 +18,7 @@ public class DecoratorTest {
         PersonCloth personCloth = new CheapCloth(person);
         person.dressed();
 
+        //然后为他穿上了贵的衣服
         PersonCloth personCloth1 = new ExpensiveCloth(personCloth);
         personCloth1.dressed();
 

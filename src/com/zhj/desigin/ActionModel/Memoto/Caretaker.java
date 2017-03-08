@@ -2,6 +2,7 @@ package com.zhj.desigin.ActionModel.Memoto;
 
 /**
  * Created by zhanghongjun on 16/10/20.
+ * 管理备忘录的,有可能很很多个备忘录,该例子中只有一个
  */
 public class Caretaker {
     private Memoto memoto;

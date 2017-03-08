@@ -6,7 +6,7 @@ package com.zhj.desigin.ActionModel.strategy;
  */
 public class YellowGoldMember implements ICalcPrice{
     @Override
-    public double getPrice(double price) {
+    public double calcPrice(double price) {
         return 0.8 * price;
     }
 }

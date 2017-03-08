@@ -6,7 +6,7 @@ package com.zhj.desigin.ActionModel.strategy;
  */
 public class NormalMember implements ICalcPrice{
     @Override
-    public double getPrice(double price) {
+    public double calcPrice(double price) {
         return price;
     }
 }

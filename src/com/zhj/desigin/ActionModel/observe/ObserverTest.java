@@ -2,6 +2,7 @@ package com.zhj.desigin.ActionModel.observe;
 
 /**
  * Created by zhanghongjun on 16/10/19.
+ * 测试观察者模式
  */
 public class ObserverTest {
 

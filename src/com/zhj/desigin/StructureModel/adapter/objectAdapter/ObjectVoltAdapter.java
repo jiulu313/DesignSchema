@@ -5,6 +5,7 @@ import com.zhj.desigin.StructureModel.adapter.Volt220;
 
 /**
  * Created by zhanghongjun on 16/10/18.
+ * 对象适配器
  */
 public class ObjectVoltAdapter implements FiveVolt{
     Volt220 volt220;

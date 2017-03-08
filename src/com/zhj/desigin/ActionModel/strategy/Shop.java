@@ -10,8 +10,8 @@ public class Shop {
         this.strategy = strategy;
     }
 
-    public double getPrice(double price){
-        return strategy.getPrice(price);
+    public double calcPrice(double price){
+        return strategy.calcPrice(price);
     }
 
 }

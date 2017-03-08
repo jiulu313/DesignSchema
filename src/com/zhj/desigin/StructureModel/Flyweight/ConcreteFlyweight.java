@@ -1,6 +1,5 @@
 package com.zhj.desigin.StructureModel.Flyweight;
 
-import com.zhj.desigin.StructureModel.facade.SystemB;
 
 /**
  * Created by zhanghongjun on 16/10/19.

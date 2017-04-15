@@ -1,5 +1,6 @@
 package com.zhj.desigin.DesignPrinciples.principles1;
 
+
 /**
  * Created by zhanghongjun on 2017/4/15.
  * 单一原则

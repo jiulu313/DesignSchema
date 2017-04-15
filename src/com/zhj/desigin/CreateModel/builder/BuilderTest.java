@@ -11,11 +11,11 @@ public class BuilderTest {
 
 
     public static void test(){
-        Compute compute = new CustomerBuilder()
+        Computer computer = new CustomerBuilder()
                 .setMEM("8G")
                 .setHDD("西部数据500G")
                 .setCPU("i7")
                 .build();
-        System.out.println(compute);
+        System.out.println(computer);
     }
 }

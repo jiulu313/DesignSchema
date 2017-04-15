@@ -2,17 +2,14 @@ package com.zhj.desigin;
 
 import com.zhj.desigin.ActionModel.Chain.ChainTest;
 import com.zhj.desigin.ActionModel.Iterator.IteratorTest;
-import com.zhj.desigin.ActionModel.Mediator.Mediator;
 import com.zhj.desigin.ActionModel.Mediator.MediatorTest;
-import com.zhj.desigin.ActionModel.Memoto.Memoto;
 import com.zhj.desigin.ActionModel.Memoto.MemotoTest;
 import com.zhj.desigin.ActionModel.command.CommandTest;
-import com.zhj.desigin.ActionModel.command.MediaPlayer;
 import com.zhj.desigin.ActionModel.observe.ObserverTest;
 import com.zhj.desigin.ActionModel.state.StateTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
-import com.zhj.desigin.CreateModel.builder.Compute;
+import com.zhj.desigin.CreateModel.builder.Computer;
 import com.zhj.desigin.CreateModel.builder.CustomerBuilder;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.Factory;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.NokiaFactory;
@@ -28,8 +25,6 @@ import com.zhj.desigin.StructureModel.bridge.BridgeTest;
 import com.zhj.desigin.StructureModel.composite.Client;
 import com.zhj.desigin.StructureModel.decorator.DecoratorTest;
 import com.zhj.desigin.StructureModel.facade.FacadeTest;
-
-import java.util.HashMap;
 
 /**
  * Created by zhanghongjun on 16/10/17.
@@ -102,8 +97,8 @@ public class Main {
 
     //测试建造者模式
     private static void testBuilder(){
-        Compute compute = new CustomerBuilder().setMEM("8G").setHDD("西部数据500G").setCPU("i7").build();
-        System.out.println(compute);
+        Computer computer = new CustomerBuilder().setMEM("8G").setHDD("西部数据500G").setCPU("i7").build();
+        System.out.println(computer);
     }
 
     //测试原型模式

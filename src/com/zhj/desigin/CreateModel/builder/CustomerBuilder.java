@@ -23,7 +23,7 @@ public class CustomerBuilder extends Builder{
     }
 
     @Override
-    public Compute build() {
+    public Computer build() {
         return mComputer;
     }
 }

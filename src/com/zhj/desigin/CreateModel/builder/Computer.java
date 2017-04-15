@@ -5,7 +5,7 @@ package com.zhj.desigin.CreateModel.builder;
  *
  * 一台电脑
  */
-public class Compute {
+public class Computer {
     protected String HDD;       //硬盘
     protected String CPU;       //CPU
     protected String MEM;       //内存条

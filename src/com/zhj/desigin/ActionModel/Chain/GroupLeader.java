@@ -1,8 +1,8 @@
 package com.zhj.desigin.ActionModel.Chain;
 
 /**
- * Created by zhanghongjun on 16/10/20.
  * 组长
+ * 只多只能报1000元以内的
  */
 public class GroupLeader extends Leader{
     @Override

@@ -1,7 +1,6 @@
 package com.zhj.desigin.ActionModel.Memoto;
 
 /**
- * Created by zhanghongjun on 16/10/20.
  * 测试备忘录模式
  */
 public class MemotoTest {

@@ -3,8 +3,7 @@ package com.zhj.desigin.ActionModel.observe;
 import java.util.ArrayList;
 
 /**
- * Created by zhanghongjun on 16/10/19.
- * 被观察者
+ * 被观察者：灯
  */
 public class Observable {
     //观察者集合

@@ -1,7 +1,6 @@
 package com.zhj.desigin.ActionModel.template;
 
 /**
- * Created by zhanghongjun on 16/10/18.
  * 把大象放冰箱
  */
 public abstract class EnterIceBox {
@@ -23,7 +22,6 @@ public abstract class EnterIceBox {
         enterInfoIcobox();
         closeDoor();
     }
-
 }
 
 

@@ -6,7 +6,6 @@ import com.zhj.desigin.CreateModel.factory.SanuagPhone;
 import com.zhj.desigin.CreateModel.factory.XiaoMiPhone;
 
 /**
- * Created by zhanghongjun on 16/10/17.
  * 将上面的多个工厂方法模式里的方法置为静态的，不需要创建实例，直接调用即可。
  *
  * 简单工厂模式 之静态工厂方法模式。

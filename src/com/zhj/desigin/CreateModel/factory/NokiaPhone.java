@@ -3,6 +3,8 @@ package com.zhj.desigin.CreateModel.factory;
 /**
  * Created by zhanghongjun on 16/10/17.
  */
+
+//Nokia手机
 public class NokiaPhone implements Phone {
     @Override
     public void call() {

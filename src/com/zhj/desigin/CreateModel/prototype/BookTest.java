@@ -3,6 +3,8 @@ package com.zhj.desigin.CreateModel.prototype;
 /**
  * Created by zhanghongjun on 16/10/18.
  */
+
+//测试类
 public class BookTest {
 
     public static void main(String[] args) throws CloneNotSupportedException {

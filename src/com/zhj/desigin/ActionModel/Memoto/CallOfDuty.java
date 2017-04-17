@@ -1,10 +1,8 @@
 package com.zhj.desigin.ActionModel.Memoto;
 
-import com.zhj.desigin.ActionModel.Iterator.MinIterator;
 
 /**
  * 使命召唤游戏
- * <p>
  * 该功能就是将在游戏进度存储到文件系统或者数据库中，下次再进入时从本地加载进度
  * 使得玩家能够继续上一次的游戏之旅。下面是用代码演示备忘录在此种场景中的应用
  */

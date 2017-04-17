@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.observe;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 观察者：行人
  */
 public class People extends Observer{
     @Override

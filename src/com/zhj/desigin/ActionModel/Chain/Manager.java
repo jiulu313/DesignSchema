@@ -1,7 +1,8 @@
 package com.zhj.desigin.ActionModel.Chain;
 
 /**
- * Created by zhanghongjun on 16/10/20.
+ * 经理
+ * 最多可以报 10000
  */
 public class Manager extends Leader{
     @Override

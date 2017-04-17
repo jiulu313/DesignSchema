@@ -7,9 +7,8 @@ import com.zhj.desigin.DesignPrinciples.principles2.XiaoMiPhone;
 
 /**
  *
- * Created by zhanghongjun on 16/10/17.
- * 简单工厂模式 之普通工厂模式
- * 有一个生产方法
+ * 简单工厂模式
+ * 工厂里面有一个生产手机的方法，根据不同的值生产不同的手机
  *
  */
 public class PhoneFactory {

@@ -1,7 +1,6 @@
 package com.zhj.desigin.ActionModel.Chain;
 
 /**
- * Created by zhanghongjun on 16/10/20.
  * 主管
  */
 public class Director extends Leader{

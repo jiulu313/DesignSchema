@@ -1,7 +1,8 @@
 package com.zhj.desigin.ActionModel.Chain;
 
 /**
- * Created by zhanghongjun on 16/10/20.
+ * 老板
+ * 不限制
  */
 public class Boss extends Leader{
 

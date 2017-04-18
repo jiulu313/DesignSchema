@@ -1,9 +1,10 @@
 package com.zhj.desigin.CreateModel.factory.NormalFactory;
 
-import com.zhj.desigin.DesignPrinciples.principles2.NokiaPhone;
-import com.zhj.desigin.DesignPrinciples.principles2.Phone;
-import com.zhj.desigin.DesignPrinciples.principles2.SanuagPhone;
-import com.zhj.desigin.DesignPrinciples.principles2.XiaoMiPhone;
+
+import com.zhj.desigin.CreateModel.factory.NokiaPhone;
+import com.zhj.desigin.CreateModel.factory.Phone;
+import com.zhj.desigin.CreateModel.factory.SanuagPhone;
+import com.zhj.desigin.CreateModel.factory.XiaoMiPhone;
 
 /**
  *

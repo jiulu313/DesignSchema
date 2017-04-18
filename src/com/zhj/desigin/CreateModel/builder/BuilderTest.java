@@ -11,7 +11,7 @@ public class BuilderTest {
 
 
     public static void test(){
-        Computer computer = new CustomerBuilder()
+        Computer computer = new Computer.ComputerBuilder()
                 .setMEM("8G")
                 .setHDD("西部数据500G")
                 .setCPU("i7")

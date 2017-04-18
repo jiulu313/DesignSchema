@@ -6,6 +6,10 @@ package com.zhj.desigin.ActionModel.Chain;
  * 2 先交给上级处理,上级处理不了,再自己处理(比如类的加载机制)
  */
 public class ChainTest {
+    public static void main(String[] args){
+        test();
+    }
+
 
     public static void test(){
         Leader groupLeader = new GroupLeader();

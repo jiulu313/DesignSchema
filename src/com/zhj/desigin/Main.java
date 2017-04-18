@@ -10,7 +10,6 @@ import com.zhj.desigin.ActionModel.state.StateTest;
 import com.zhj.desigin.ActionModel.strategy.StrategyTest;
 import com.zhj.desigin.ActionModel.template.TemplateTest;
 import com.zhj.desigin.CreateModel.builder.Computer;
-import com.zhj.desigin.CreateModel.builder.CustomerBuilder;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.Factory;
 import com.zhj.desigin.CreateModel.factory.FactoryMethod.NokiaFactory;
 import com.zhj.desigin.CreateModel.factory.Phone;
@@ -97,8 +96,7 @@ public class Main {
 
     //测试建造者模式
     private static void testBuilder(){
-        Computer computer = new CustomerBuilder().setMEM("8G").setHDD("西部数据500G").setCPU("i7").build();
-        System.out.println(computer);
+
     }
 
     //测试原型模式

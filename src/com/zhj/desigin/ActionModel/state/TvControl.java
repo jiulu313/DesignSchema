@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 遥控器
  */
 public class TvControl implements PowerControl{
     TvState mState;
@@ -10,14 +10,18 @@ public class TvControl implements PowerControl{
         mState = state;
     }
 
+    //改变为开机状态
     @Override
     public void powerOn() {
+        //改变为开机状态，把状态设置为开机状态
         setState(new PowerOnState());
         System.out.println("开机啦");
     }
 
+    //改变为关机状态
     @Override
     public void powerOff() {
+        //改变为关机状态，把状态设置为开机状态
         setState(new PowerOffState());
         System.out.println("关机啦");
     }
@@ -37,6 +41,5 @@ public class TvControl implements PowerControl{
     public void turnDown(){
         mState.turnDown();
     }
-
 
 }

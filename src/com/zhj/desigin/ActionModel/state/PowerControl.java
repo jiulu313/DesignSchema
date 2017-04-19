@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 电源操作接口
  */
 public interface PowerControl {
     void powerOn();

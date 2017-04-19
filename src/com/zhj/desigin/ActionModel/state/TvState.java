@@ -1,12 +1,11 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 电视状态接口，定义了电视操作的函数
  */
 public interface TvState {
-    void nextChannel();
-    void preChannel();
-    void turnUp();
-    void turnDown();
-
+    void nextChannel();     //下一个频道
+    void preChannel();      //上一个频道
+    void turnUp();          //调高音量
+    void turnDown();        //调低音量
 }

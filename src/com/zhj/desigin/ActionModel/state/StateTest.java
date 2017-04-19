@@ -1,14 +1,19 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 客户端测试类
  */
 public class StateTest {
+
+    public static void main(String[] args){
+        test();
+    }
+
 
     public static void test(){
         //电视
         TvControl tvControl = new TvControl();
-        //设置开机状态
+        //改变状态，看看是否影响行为
         tvControl.powerOn();
         //下一个频道
         tvControl.nextChannel();
@@ -18,8 +23,5 @@ public class StateTest {
         tvControl.powerOff();
         //调高音量，此时不会生效
         tvControl.turnUp();
-
-
     }
-
 }

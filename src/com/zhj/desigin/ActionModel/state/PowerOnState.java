@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 开机状态
  */
 public class PowerOnState implements TvState{
     @Override

@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.state;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 关机状态
  */
 public class PowerOffState implements TvState{
     @Override

@@ -1,9 +1,9 @@
-package com.zhj.desigin.ActionModel.command;
+package com.zhj.desigin.ActionModel.command.demo1;
 
 /**
  * Created by zhanghongjun on 16/10/20.
  */
-public class StopCommand implements command{
+public class RewindCommand implements command{
     MediaPlayer mediaPlayer;
 
     public void setMediaPlayer(MediaPlayer mediaPlayer){
@@ -12,6 +12,6 @@ public class StopCommand implements command{
 
     @Override
     public void execute() {
-        mediaPlayer.stop();
+        mediaPlayer.rewind();
     }
 }

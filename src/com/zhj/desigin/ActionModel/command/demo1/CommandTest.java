@@ -1,9 +1,12 @@
-package com.zhj.desigin.ActionModel.command;
+package com.zhj.desigin.ActionModel.command.demo1;
 
 /**
  * Created by zhanghongjun on 16/10/20.
  */
 public class CommandTest {
+    public static void main(String[] args){
+        test();
+    }
 
     public static void test(){
         //创建播放器，也就是命令的接收器

@@ -1,10 +1,10 @@
-package com.zhj.desigin.ActionModel.command;
+package com.zhj.desigin.ActionModel.command.demo1;
 
 /**
  * Created by zhanghongjun on 16/10/20.
  */
-public class RewindCommand implements command{
-    MediaPlayer mediaPlayer;
+public class PlayCommand implements command{
+    private MediaPlayer mediaPlayer;
 
     public void setMediaPlayer(MediaPlayer mediaPlayer){
         this.mediaPlayer = mediaPlayer;
@@ -12,6 +12,6 @@ public class RewindCommand implements command{
 
     @Override
     public void execute() {
-        mediaPlayer.rewind();
+        mediaPlayer.play();
     }
 }

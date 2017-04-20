@@ -1,13 +1,12 @@
 package com.zhj.desigin.ActionModel.Iterator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 迭代器测试类，相当于Boss
  */
 public class IteratorTest {
 
     public static void main(String[] args){
         test();
-
     }
 
     public static void test(){

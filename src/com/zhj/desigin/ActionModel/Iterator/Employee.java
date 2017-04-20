@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Iterator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 员工实体类
  */
 public class Employee {
     private String name;

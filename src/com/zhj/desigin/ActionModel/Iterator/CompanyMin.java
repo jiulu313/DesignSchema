@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 小民部门
  */
 public class CompanyMin implements Company {
     List<Employee> list = new ArrayList<>();
@@ -16,6 +16,10 @@ public class CompanyMin implements Company {
         list.add(new Employee("xiaoF",35));
         list.add(new Employee("xiaoG",36));
         list.add(new Employee("xiaoH",37));
+    }
+
+    public List<Employee> getList(){
+        return list;
     }
 
     @Override

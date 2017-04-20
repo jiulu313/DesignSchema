@@ -3,7 +3,7 @@ package com.zhj.desigin.ActionModel.Iterator;
 import java.util.List;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 小民的迭代器
  */
 public class MinIterator implements Iterator{
     private List<Employee> list;

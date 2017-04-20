@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Iterator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 小辉部门的迭代器
  */
 public class HuiIterator implements Iterator{
     private Employee[] employees;

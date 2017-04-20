@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Iterator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 迭代器接口
  */
 public interface Iterator {
 

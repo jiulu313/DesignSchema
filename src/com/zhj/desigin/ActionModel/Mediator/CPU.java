@@ -2,7 +2,7 @@ package com.zhj.desigin.ActionModel.Mediator;
 
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * CPU
  */
 public class CPU extends Colleague{
     private String dataVideo;
@@ -32,6 +32,4 @@ public class CPU extends Colleague{
 
         mediator.changed(this);
     }
-
-
 }

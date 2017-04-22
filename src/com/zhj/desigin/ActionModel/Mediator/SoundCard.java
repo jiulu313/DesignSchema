@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 声卡类
  */
 public class SoundCard extends Colleague {
     public SoundCard(Mediator mediator) {

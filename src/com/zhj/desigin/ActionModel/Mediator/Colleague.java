@@ -1,9 +1,8 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
  *
- * 同事
+ * 同事类（也就是多个交互对象的基类）
  */
 public abstract class Colleague {
     protected Mediator mediator;  //每一个同事都知道其中介者

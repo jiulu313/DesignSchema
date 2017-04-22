@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 抽象中介者
  */
 public abstract class Mediator {
     public abstract void changed(Colleague c);

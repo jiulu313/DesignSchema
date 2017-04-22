@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * 具体的中介者，也就是主板
  */
 public class MainBoard extends Mediator{
     private CDDevice cdDevice;

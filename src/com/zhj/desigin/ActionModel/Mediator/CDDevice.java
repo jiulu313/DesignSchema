@@ -1,7 +1,7 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
+ * CD 类
  */
 public class CDDevice extends Colleague{
     private String data;    //视频数据

@@ -1,8 +1,7 @@
 package com.zhj.desigin.ActionModel.Mediator;
 
 /**
- * Created by zhanghongjun on 16/10/21.
- * 中介者模式
+ * 中介者模式 测试类
  */
 public class MediatorTest {
 
@@ -25,7 +24,4 @@ public class MediatorTest {
         //完成后可以开始播放片了
         cdDevice.load();
     }
-
-
-
 }

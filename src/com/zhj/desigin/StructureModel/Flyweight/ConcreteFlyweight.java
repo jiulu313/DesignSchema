@@ -2,7 +2,7 @@ package com.zhj.desigin.StructureModel.Flyweight;
 
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 具体的享元对象
  */
 public class ConcreteFlyweight extends Flyweight{
     @Override

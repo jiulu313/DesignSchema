@@ -3,7 +3,6 @@ package com.zhj.desigin.StructureModel.Flyweight;
 import java.util.HashMap;
 
 /**
- * Created by zhanghongjun on 16/10/19.
  *
  *  享元模式的核心在于享元工厂类，
  *  享元工厂类的作用在于提供一个用于存储享元对象的享元池，
@@ -17,13 +16,15 @@ public class FlyweightFactory {
     public Flyweight getFlyweight(String key){
         Flyweight flyweight = flyweights.get(key);
 
+        //池中没有
         if(flyweight == null){
+            //新建一个
             flyweight = new ConcreteFlyweight();
+            //然后放入池中
             flyweights.put(key,flyweight);
         }
 
+        //最后返回或者池中有，直接返回
         return flyweight;
     }
-
-
 }

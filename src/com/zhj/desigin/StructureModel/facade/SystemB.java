@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.facade;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 子系统B
  */
 public class SystemB {
 

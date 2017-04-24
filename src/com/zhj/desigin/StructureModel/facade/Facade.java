@@ -27,6 +27,4 @@ public class Facade {
         systemC.doSomething2();
         systemC.doSomething3();
     }
-
-
 }

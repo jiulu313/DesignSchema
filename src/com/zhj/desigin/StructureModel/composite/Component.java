@@ -1,7 +1,6 @@
 package com.zhj.desigin.StructureModel.composite;
 
 /**
- * Created by zhanghongjun on 16/10/18.
  * 透明组合模式
  */
 public abstract class Component {

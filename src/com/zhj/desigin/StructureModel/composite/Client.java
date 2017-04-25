@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.composite;
 
 /**
- * Created by zhanghongjun on 16/10/18.
+ * 客户端测试类
  */
 public class Client {
     public static void test(){
@@ -26,6 +26,4 @@ public class Client {
 
         root.doSomething();
     }
-
-
 }

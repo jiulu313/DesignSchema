@@ -3,7 +3,7 @@ package com.zhj.desigin.StructureModel.composite;
 import java.util.ArrayList;
 
 /**
- * Created by zhanghongjun on 16/10/18.
+ * 具有叶子节点的节点
  */
 public class Composite extends Component{
 

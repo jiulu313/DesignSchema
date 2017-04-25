@@ -1,7 +1,6 @@
 package com.zhj.desigin.StructureModel.proxy;
 
 /**
- * Created by zhanghongjun on 16/10/19.
  * 真实角色
  *
  * 该类也称为被委托类或被代理类，该类定义了代理所表示的真实对象

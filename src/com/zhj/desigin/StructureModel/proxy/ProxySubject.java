@@ -1,7 +1,6 @@
 package com.zhj.desigin.StructureModel.proxy;
 
 /**
- * Created by zhanghongjun on 16/10/19.
  *
  * 代理类
  * 委托对象与代理对象需要实现相同的接口

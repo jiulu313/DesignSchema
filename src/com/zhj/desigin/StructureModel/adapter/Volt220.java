@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.adapter;
 
 /**
- * Created by zhanghongjun on 16/10/18.
+ * 220V的电压，被转换的类
  */
 public class Volt220 {
     public int getVolt220(){

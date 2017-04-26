@@ -4,10 +4,10 @@ import com.zhj.desigin.StructureModel.adapter.FiveVolt;
 import com.zhj.desigin.StructureModel.adapter.Volt220;
 
 /**
- * Created by zhanghongjun on 16/10/18.
- * 对象适配器
+ * 对象适配器,实现目标接口，保存一个被转换对象的引用
  */
 public class ObjectVoltAdapter implements FiveVolt{
+    //保存一个被转换对象的引用
     Volt220 volt220;
 
     public ObjectVoltAdapter(Volt220 volt220){
@@ -22,5 +22,4 @@ public class ObjectVoltAdapter implements FiveVolt{
     public int getVolt220(){
         return volt220.getVolt220();
     }
-
 }

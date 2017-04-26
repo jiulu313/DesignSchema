@@ -1,9 +1,12 @@
 package com.zhj.desigin.StructureModel.adapter.classAdapter;
 
 /**
- * Created by zhanghongjun on 16/10/18.
+ * 下面是类适配器模式的测试类
  */
 public class ClassAdapterTest {
+    public static void main(String[] args){
+        test();
+    }
 
     public static void test(){
 

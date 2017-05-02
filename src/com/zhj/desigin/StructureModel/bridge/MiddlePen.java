@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.bridge;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 中号的笔
  */
 public class MiddlePen extends Pen{
     @Override

@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.bridge;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 颜色的抽象
  */
 public abstract class Color {
     protected String color;

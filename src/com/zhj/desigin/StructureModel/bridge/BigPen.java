@@ -1,9 +1,8 @@
 package com.zhj.desigin.StructureModel.bridge;
 
-import com.zhj.desigin.StructureModel.facade.SystemB;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 大号的笔
  */
 public class BigPen extends Pen{
     @Override

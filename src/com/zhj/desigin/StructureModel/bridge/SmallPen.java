@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.bridge;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 小号的笔
  */
 public class SmallPen extends Pen {
     @Override

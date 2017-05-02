@@ -1,9 +1,10 @@
 package com.zhj.desigin.StructureModel.bridge;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 笔的抽象
  */
 public abstract class Pen {
+    //保存另一个变化的维度
     protected Color color;
 
     public abstract void draw();

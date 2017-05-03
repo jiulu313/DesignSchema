@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.decorator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 高档衣服
  */
 public class ExpensiveCloth extends PersonCloth{
     public ExpensiveCloth(Person person) {

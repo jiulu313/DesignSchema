@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.decorator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 测试类
  */
 public class DecoratorTest {
 
@@ -21,8 +21,5 @@ public class DecoratorTest {
         //然后为他穿上了贵的衣服
         PersonCloth personCloth1 = new ExpensiveCloth(personCloth);
         personCloth1.dressed();
-
-
     }
-
 }

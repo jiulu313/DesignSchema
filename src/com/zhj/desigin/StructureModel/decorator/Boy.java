@@ -1,7 +1,7 @@
 package com.zhj.desigin.StructureModel.decorator;
 
 /**
- * Created by zhanghongjun on 16/10/19.
+ * 具体装饰对象的实现类
  */
 public class Boy extends Person{
     @Override
